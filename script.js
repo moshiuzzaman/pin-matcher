@@ -3,7 +3,6 @@ const generatePinBtn = document.getElementById("generatePinBtn");
 
 generatePinBtn.addEventListener("click", function () {
   let randomNum = Math.round(Math.random() * 10000);
-  console.log(randomNum);
   if (randomNum < 1000) {
     randomNum = randomNum + 1234;
   }
