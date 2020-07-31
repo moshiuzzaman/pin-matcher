@@ -40,7 +40,7 @@ submitBtn.addEventListener("click", function () {
 
     if (tryCount.innerText == 0) {
       submitBtn.setAttribute("disabled", true);
-      submitBtn.classList.add('disableBtn');
+      submitBtn.classList.add('disableBtn')
     }
   }
 });

@@ -76,9 +76,25 @@ margin-right: -4px;
 border-radius: 10px;
 cursor: pointer;
 }
-.blink-me {
-color: #E0B612;
+.button:hover{
+background: #647081;
 }
+.button:active{
+    background: #b4bbc5;
+}
+.otherBtn{
+
+    background-color:#5f8480
+}
+.otherBtn:hover{
+background-color:#809795
+}
+.otherBtn:active{
+    background-color:#507a76
+    }
+/* .blink-me {
+color: #E0B612;
+} */
 .submit-btn {
     border: none;
     margin-top: 20px;
@@ -87,7 +103,10 @@ color: #E0B612;
     background: #495BC3;
     color: #fff;
 }
-
+.submit-btn:active{
+     background: #1333e6;
+    
+}
 .disableBtn {
     opacity: 0.65; 
     cursor: not-allowed;
